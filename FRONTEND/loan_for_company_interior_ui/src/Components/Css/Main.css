@@ -1,0 +1,210 @@
+
+
+
+
+.header-h1{
+    color: rgb(212, 238, 15);
+    font-family: Roboto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 55px;
+     margin:auto;
+  
+    /* border-radius: 15px; */
+}  
+
+.container-banner{
+    
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-image: url("https://ik.imagekit.io/tko8b2tmb/background123.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676472557463");
+    padding-bottom: 310px;
+}
+  .container-banner input{
+    margin-top:20px;
+  }  
+
+#profilepic{
+    border-radius: 85px;
+    padding-top: 15px;
+    
+}
+
+.container-about{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 18px; 
+    text-align: center;
+}
+
+
+.container-about>h1{
+    font-family: 'Ruda', sans-serif;
+}
+
+.flex-project-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.flex-project-container>div{
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-style: hidden;
+    border-radius: 30px;
+}
+
+.flex-project-container img{
+    margin-top: 27px;
+}
+
+.flex-project-container > div:hover
+{
+transform: scale(1.1);
+
+}
+.navbar{
+    border-radius: 10px;
+    border-style: hidden;
+    padding: 10px; 
+    text-align: center;
+    width: auto;
+    position: sticky;
+    z-index: 1;
+  
+}
+.head-1{
+    font-size:17px;
+    padding-top:10px;
+    font-family: Roboto;
+    margin-bottom: 40px;
+}
+.icon{
+    height:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SideMenu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2px;
+   
+}
+.SideMenu{
+    height: 100%;
+}
+.SideMenuVertical{
+    padding-top: 10px;
+    height: 100%;
+    background-color: rgb(227, 246, 171);
+    padding-bottom:270px;
+    margin-top: 25px;
+    box-shadow:0cm;
+
+}
+.dashboard {
+    margin-top: 50px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+    min-height: 200px;
+  }
+
+  .dashboard__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5rem;
+  }
+  .DashBoard{
+    float:left;
+  }
+  .Dashboardcontent{
+    margin-left: 220px;
+    font-size:10px;
+    margin-top: 0px;
+    font-family:Roboto;
+  }
+
+auth-form-container, .login-form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    margin: 0.5rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 300px;
+    padding-top:50px;
+    background-image: url("https://ik.imagekit.io/tko8b2tmb/background123.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676472557463");
+    padding-bottom: 310px;
+    margin-top:0px;
+  }
+  .auth-form-container h2{
+    font-family:Roboto;
+    margin-top:10px;
+    margin-left:50%;
+    margin-right: 40%;
+    color:white;
+    text-shadow:2px;
+
+  }
+}
+
+label {
+  text-align: center;
+  padding: 0.25rem 0;
+  color:rgb(0, 0, 0);
+}
+
+.auth-form-container input {
+  margin: 0.5rem 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+.auth-form-container ::placeholder{
+    text-align: center;
+}
+button {
+  border: none;
+  background-color: rgb(197, 52, 52);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+.b1 label{
+  color:black;
+
+}
+
+
